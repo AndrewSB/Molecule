@@ -6,5 +6,6 @@
         <page name='Contained Molecule'/>
         <page name='Generic Molecule'/>
         <page name='Twice As Generic Molecule'/>
+        <page name='Contained Generic Molecule'/>
     </pages>
 </playground>
