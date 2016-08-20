@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		49A497501D68E76C004A3D2C /* Molecule.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A4974F1D68E76C004A3D2C /* Molecule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49A497571D68E76C004A3D2C /* Molecule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A4974C1D68E76C004A3D2C /* Molecule.framework */; };
 		49A4975C1D68E76C004A3D2C /* MoleculeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A4975B1D68E76C004A3D2C /* MoleculeTests.swift */; };
+		49A497671D68E898004A3D2C /* Molecule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A497661D68E898004A3D2C /* Molecule.swift */; };
+		49A4976F1D68E8DD004A3D2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A4976E1D68E8DD004A3D2C /* AppDelegate.swift */; };
+		49A497711D68E8DD004A3D2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A497701D68E8DD004A3D2C /* ViewController.swift */; };
+		49A497741D68E8DD004A3D2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A497721D68E8DD004A3D2C /* Main.storyboard */; };
+		49A497761D68E8DD004A3D2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A497751D68E8DD004A3D2C /* Assets.xcassets */; };
+		49A497791D68E8DD004A3D2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A497771D68E8DD004A3D2C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +29,18 @@
 
 /* Begin PBXFileReference section */
 		49A4974C1D68E76C004A3D2C /* Molecule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Molecule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		49A4974F1D68E76C004A3D2C /* Molecule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Molecule.h; sourceTree = "<group>"; };
 		49A497511D68E76C004A3D2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49A497561D68E76C004A3D2C /* MoleculeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoleculeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A4975B1D68E76C004A3D2C /* MoleculeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoleculeTests.swift; sourceTree = "<group>"; };
 		49A4975D1D68E76C004A3D2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A497661D68E898004A3D2C /* Molecule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Molecule.swift; sourceTree = "<group>"; };
+		49A4976C1D68E8DD004A3D2C /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A4976E1D68E8DD004A3D2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49A497701D68E8DD004A3D2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49A497731D68E8DD004A3D2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49A497751D68E8DD004A3D2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49A497781D68E8DD004A3D2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49A4977A1D68E8DD004A3D2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +59,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		49A497691D68E8DD004A3D2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +74,7 @@
 			children = (
 				49A4974E1D68E76C004A3D2C /* Molecule */,
 				49A4975A1D68E76C004A3D2C /* MoleculeTests */,
+				49A4976D1D68E8DD004A3D2C /* Demo */,
 				49A4974D1D68E76C004A3D2C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +84,7 @@
 			children = (
 				49A4974C1D68E76C004A3D2C /* Molecule.framework */,
 				49A497561D68E76C004A3D2C /* MoleculeTests.xctest */,
+				49A4976C1D68E8DD004A3D2C /* Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,7 +92,7 @@
 		49A4974E1D68E76C004A3D2C /* Molecule */ = {
 			isa = PBXGroup;
 			children = (
-				49A4974F1D68E76C004A3D2C /* Molecule.h */,
+				49A497661D68E898004A3D2C /* Molecule.swift */,
 				49A497511D68E76C004A3D2C /* Info.plist */,
 			);
 			path = Molecule;
@@ -86,6 +107,19 @@
 			path = MoleculeTests;
 			sourceTree = "<group>";
 		};
+		49A4976D1D68E8DD004A3D2C /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				49A4976E1D68E8DD004A3D2C /* AppDelegate.swift */,
+				49A497701D68E8DD004A3D2C /* ViewController.swift */,
+				49A497721D68E8DD004A3D2C /* Main.storyboard */,
+				49A497751D68E8DD004A3D2C /* Assets.xcassets */,
+				49A497771D68E8DD004A3D2C /* LaunchScreen.storyboard */,
+				49A4977A1D68E8DD004A3D2C /* Info.plist */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +127,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49A497501D68E76C004A3D2C /* Molecule.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +169,23 @@
 			productReference = 49A497561D68E76C004A3D2C /* MoleculeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		49A4976B1D68E8DD004A3D2C /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A4977B1D68E8DD004A3D2C /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				49A497681D68E8DD004A3D2C /* Sources */,
+				49A497691D68E8DD004A3D2C /* Frameworks */,
+				49A4976A1D68E8DD004A3D2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = 49A4976C1D68E8DD004A3D2C /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -152,6 +202,9 @@
 					49A497551D68E76C004A3D2C = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					49A4976B1D68E8DD004A3D2C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 49A497461D68E76C004A3D2C /* Build configuration list for PBXProject "Molecule" */;
@@ -160,6 +213,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 49A497421D68E76C004A3D2C;
 			productRefGroup = 49A4974D1D68E76C004A3D2C /* Products */;
@@ -168,6 +222,7 @@
 			targets = (
 				49A4974B1D68E76C004A3D2C /* Molecule */,
 				49A497551D68E76C004A3D2C /* MoleculeTests */,
+				49A4976B1D68E8DD004A3D2C /* Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +242,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		49A4976A1D68E8DD004A3D2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A497791D68E8DD004A3D2C /* LaunchScreen.storyboard in Resources */,
+				49A497761D68E8DD004A3D2C /* Assets.xcassets in Resources */,
+				49A497741D68E8DD004A3D2C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -194,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A497671D68E898004A3D2C /* Molecule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +268,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				49A4975C1D68E76C004A3D2C /* MoleculeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A497681D68E8DD004A3D2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A497711D68E8DD004A3D2C /* ViewController.swift in Sources */,
+				49A4976F1D68E8DD004A3D2C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +289,25 @@
 			targetProxy = 49A497581D68E76C004A3D2C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49A497721D68E8DD004A3D2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49A497731D68E8DD004A3D2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49A497771D68E8DD004A3D2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49A497781D68E8DD004A3D2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		49A4975E1D68E76C004A3D2C /* Debug */ = {
@@ -310,6 +404,7 @@
 		49A497611D68E76C004A3D2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -320,12 +415,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Molecule.Molecule;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		49A497621D68E76C004A3D2C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -359,6 +456,28 @@
 			};
 			name = Release;
 		};
+		49A4977C1D68E8DD004A3D2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Molecule.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49A4977D1D68E8DD004A3D2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Molecule.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -378,12 +497,22 @@
 				49A497621D68E76C004A3D2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49A497631D68E76C004A3D2C /* Build configuration list for PBXNativeTarget "MoleculeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49A497641D68E76C004A3D2C /* Debug */,
 				49A497651D68E76C004A3D2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A4977B1D68E8DD004A3D2C /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A4977C1D68E8DD004A3D2C /* Debug */,
+				49A4977D1D68E8DD004A3D2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
